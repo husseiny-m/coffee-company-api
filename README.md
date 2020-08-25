@@ -1,6 +1,6 @@
 # Description
 
-- Rest API that returns a JSON data for the coffee machines and coffee pods.
+- Rest APIs that return a JSON data for the coffee machines and coffee pods.
 - Data could be filtered using query string.
 - Deployed **live** at heroku:
   - <https://coffee-company-api.herokuapp.com/api/v1/machines>
