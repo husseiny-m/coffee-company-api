@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js"
   },
   "author": "Husseiny",
   "license": "ISC",
@@ -18,5 +19,8 @@
     "http-status": "^1.4.2",
     "mongoose": "^5.10.0",
     "mongoose-mongodb-errors": "0.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
